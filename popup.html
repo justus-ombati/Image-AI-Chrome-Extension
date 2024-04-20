@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Welcome Popup</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="main-div">
+    <div class="toggle-images">
+      <img class="toggle-btn active" src="toggle-on.png" alt="Toggle On">
+      <img class="toggle-btn" src="toggle-off.png" alt="Toggle Off">
+    </div>
+    <h1>Image Caption Generator</h1>
+    <div class="url-div"> 
+      <input type="text" placeholder="Copy and Paste the image URL here">
+      <img id="submitBtn" alt='submitBtn' class="submitBtn" src="send.png"></img>
+    </div>
+    <div class="image-preview" id="imagePreview"></div>
+    <div class='caption-div' id="caption"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

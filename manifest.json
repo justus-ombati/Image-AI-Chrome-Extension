@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Test",
+  "description": "Opens an image in a popup when right-clicked",
+  "action": {
+    "default_icon": {
+      "24": "ico24.png",
+      "48": "ico48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions":[
+    "tabs",
+    "activeTab",
+    "contextMenus"
+  ],
+  "icons": {
+    "24": "ico24.png",
+    "48": "ico48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

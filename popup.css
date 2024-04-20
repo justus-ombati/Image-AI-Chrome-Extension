@@ -1,0 +1,77 @@
+body{
+    background-color: #21242d;
+    width: 300px;
+    height: fit-content;
+    color: #15F5BA;
+    resize: both;
+    overflow: auto;
+    position: relative;
+    margin: 0;
+}
+
+.main-div{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toggle-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .toggle-btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .active {
+    display: block;
+  }
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+.url-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.url-div input{
+    border-radius: 10px;
+    width: 80%;
+    height: 48px;
+    font-size: 120%;
+}
+.submitBtn{
+    margin-left: 5px;
+    padding: 3px;
+    width: 15%;
+    height: 42px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0 grey;
+    cursor: pointer;
+}
+.submitBtn:active{
+    width: 14%;
+    height: 36px;
+    box-shadow: 0px 5px 10px 0 rgb(39, 38, 38);
+}
+
+.caption-div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 7%;
+    height: 120px;
+    width: 250px;
+    font-size: 130%;
+    border-radius: 20px;
+    border-left: 2px solid salmon;
+    border-right: 2px solid salmon;
+    box-shadow: 0px 5px 10px 0 rgb(83, 78, 78);
+}
